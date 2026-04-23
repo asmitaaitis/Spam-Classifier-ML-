@@ -3,9 +3,11 @@
 This project classifies SMS messages as Spam or Not Spam using Machine Learning.
 
 ## Features
-- Uses Naive Bayes algorithm
-- Converts text into numerical data using CountVectorizer
-- Predicts spam messages in real-time
+- Classifies messages as spam or not spam
+- Uses real-world SMS dataset
+- Interactive user input for testing
+- Displays model accuracy
+- Fast and efficient text classification
 
 ## Technologies Used
 - Python
@@ -15,14 +17,20 @@ This project classifies SMS messages as Spam or Not Spam using Machine Learning.
 ## Algorithm
 - Multinomial Naive Bayes
 
+## NLP Techniques Used 
+- CountVectorizer (Bag of Words)
+
 ## How to Run
 1. Install requirements:
    pip install -r requirements.txt
 2. Run the file:
    python spam_classifier.py
+3. Enter a message when prompted 
 
 ## Dataset
 SMS Spam Collection Dataset
 
 ## Output
-- Predicts whether a message is spam or not
+- Takes a message as input
+- Predicts whether the message is spam or not
+- Displays the result instantly
